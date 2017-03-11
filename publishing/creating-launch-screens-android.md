@@ -124,6 +124,9 @@ Note that styles applied in the values-v21 folder will be applied only to device
 The default NativeScript template ships with two themes: `LaunchScreenTheme` (used for your initial launch)
 and `AppTheme` (used for your main application).
 
+5. In `AndroidManifest` set LaunchScreenTheme to load on manifest file:
+`android:theme="@style/LaunchScreenTheme"` in the activity key.
+
 ![Setting styles in values folders](../img/launch-screen/android/launch-android-004.png "Setting styles in values folders")
 
 > **Note:** If your project comes with no folders **values**, **values-v21** and/or **drawable-xxx**, you can create
